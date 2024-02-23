@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>INM 420 weather Lookup</title>
+</head>
+<body>
+    <header>
+        <div id="sun"></div>
+        <ul>
+            <li>weekend</li>
+            <li>Daily</li>
+            <li>Hourly</li>
+            <li>Location</li>
+        </ul>
+    </header>
+
+    <main>
+        <div id="Text">
+            <div id="select_city">
+
+                <select id="location_city">
+                    <option value="Toronto" selected>Toronto</option>
+                    <option value="Ottawa">Tehran</option>
+                    <option value="London">London</option>
+                    <option value="Tehran">New York</option>
+                    <option value="Paris">Paris</option>
+                </select>
+                <!-- button -->
+                <button id="submit">Get Weather</button>
+
+            </div>
+
+            <div id="box">
+            <h2 id="current"></h2>
+            <h2 id="feelsLike"></h2>
+            <h3 id="icon"></h3>
+            <h4 id="humadity"></h4>
+             </div>
+        </div>
+        <div id="MainImg"></div>
+    </main>
+    <footer></footer>
+    <script src="main.js"></script>
+</body>
+</html>

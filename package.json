@@ -1,0 +1,14 @@
+{
+  "name": "inm420-dictionary",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "author": "amanda lutz",
+  "license": "private",
+  "private": true,
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
